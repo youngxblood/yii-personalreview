@@ -118,6 +118,12 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionFinance()
+    {
+        return $this->render('finance');
+    }
+
+
     /**
      * Displays about page.
      *

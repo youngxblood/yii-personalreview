@@ -137,9 +137,13 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "package sync",
+		"last_filter": "br",
 		"selected_items":
 		[
+			[
+				"br",
+				"git: branch"
+			],
 			[
 				"package sync",
 				"PackageSync: Sync Online - Push Settings to Online Sync Folder"
@@ -171,10 +175,6 @@
 			[
 				"statu",
 				"git: status"
-			],
-			[
-				"br",
-				"git: branch"
 			],
 			[
 				"stat",
@@ -245,13 +245,14 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 538.0
+		"width": 519.0
 	},
 	"console":
 	{
 		"height": 127.0,
 		"history":
 		[
+			"git status",
 			"window.get_layout()",
 			"window,get_layout()",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
@@ -269,7 +270,14 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/basic-yii/vendor/yiisoft/yii2/web/View.php",
+		"/C/xampp/htdocs/basic-yii/views/site/about.php",
+		"/C/xampp/htdocs/basic-yii/config/params.php",
+		"/C/xampp/htdocs/basic-yii/views/layouts/main.php",
 		"/C/xampp/htdocs/basic-yii/controllers/SiteController.php",
+		"/C/xampp/htdocs/basic-yii/views/site/speak.php",
+		"/C/xampp/htdocs/basic-yii/views/site/index.php",
+		"/C/xampp/htdocs/basic-yii/assets/AppAsset.php",
 		"/C/xampp/htdocs/basic-yii/config/db.php",
 		"/C/xampp/htdocs/basic-yii/mail/layouts/html.php",
 		"/C/xampp/htdocs/basic-yii/web/index-test.php",
@@ -336,13 +344,15 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
 		"height": 92.0,
 		"where_history":
 		[
+			"<project>",
+			"C:\\xampp\\htdocs\\basic-yii",
 			"<project>",
 			"C:\\xampp\\htdocs\\logs"
 		]
@@ -352,6 +362,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"app\\models\\user::$user",
+			"app\\models\\user",
+			"beginForm",
+			"beginform",
+			"action",
+			"field",
+			"adminEmail",
 			"$users",
 			"app\\models\\User::$users",
 			"connection.php",
@@ -411,11 +428,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -457,6 +481,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"web/view",
+				"vendor\\yiisoft\\yii2\\web\\View.php"
+			],
+			[
+				"about",
+				"views\\site\\about.php"
+			]
 		],
 		"width": 0.0
 	},
